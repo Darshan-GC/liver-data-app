@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #e8175d;
+  padding: 5px 80px;
+}
+
+#header p {
+  letter-spacing: 2px;
+}
+
+#viewer {
+  background-color: #a8a7a7;
+  height: 60vh;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#reader {
+  display: flex;
+  width: 100%;
+}
+
+#temperature {
+  width: 33.3%;
+  padding-left: 80px;
+}
+
+#temperature div {
+  margin-bottom: 1px;
+}
+
+#Battery {
+  width: 33.3%;
+  padding-left: 65px;
+}
+
+#Battery div {
+  margin-bottom: 1px;
+}
+
+#TimeStamp {
+  width: 33.3%;
+  padding-left: 53px;
+}
+
+#TimeStamp div {
+  margin-bottom: 1px;
+}
+
+#search {
+  background-color: #e8175d;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+}
+
+#SearchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
